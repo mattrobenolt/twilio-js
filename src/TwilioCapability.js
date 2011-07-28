@@ -39,7 +39,6 @@ TwilioCapability.prototype = {
         {
             if(this.capabilities.hasOwnProperty(key))
             {
-                console.log(this.capabilities[key].toString());
                 scope_uris.push(this.capabilities[key].toString());
             }
         }
