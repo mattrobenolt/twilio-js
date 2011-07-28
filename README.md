@@ -24,6 +24,10 @@
   
      $ make cleanall
 
+## Known Issues
+  
+  * Relies on native window.JSON implementation.
+
 ## License 
 
 (The MIT License)
