@@ -10,6 +10,16 @@
 
      Twilio.Device.setup(token);
 
+## Build
+  
+  Java is required to minify the build, and Google Closure will download automatically.
+  
+     $ make
+  Clean up (Doesn't remove downloaded Google Closure)!
+     $ make clean
+  Clean everything (Including Google Closure):
+     $ make cleanall
+
 ## License 
 
 (The MIT License)
