@@ -1,0 +1,3 @@
+[submodule "lib/jwt-js"]
+	path = lib/jwt-js
+	url = git://github.com/michaelrhanson/jwt-js.git
