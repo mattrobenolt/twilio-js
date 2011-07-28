@@ -13,11 +13,23 @@
 ## Build
   
   Java is required to minify the build, and Google Closure will download automatically.
+<<<<<<< HEAD
   
      $ make
   Clean up (Doesn't remove downloaded Google Closure)!
      $ make clean
   Clean everything (Including Google Closure):
+=======
+
+     $ make
+  
+  Clean up (Doesn't remove downloaded Google Closure)!
+
+     $ make clean
+  
+  Clean everything (Including Google Closure):
+  
+>>>>>>> Added build instructions to README.
      $ make cleanall
 
 ## License 
