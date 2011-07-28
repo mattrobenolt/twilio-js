@@ -1,4 +1,15 @@
 # twilio-js
+
+## Forewarning
+  
+  **This library will require exposing your secret auth_token to the world.**
+  The use-case for this is when the user inputs their credentials through the browser to dynamically
+  generate a token, or for a browser plugin, such as a Google Chrome extension where a user enters
+  their keys to be stored locally.
+  
+  Please do not use this for your web application! Use one of the other server side Twilio libraries.
+
+## Usage
   
   A port of TwilioCapability from [twilio-python](https://github.com/twilio/twilio-python) to Javascript.
   Useful for generating Twilio Client tokens purely client side, e.g. Google Chrome extensions.
