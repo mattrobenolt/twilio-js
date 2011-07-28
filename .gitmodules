@@ -1,3 +1,6 @@
 [submodule "lib/jwt-js"]
 	path = lib/jwt-js
 	url = git://github.com/michaelrhanson/jwt-js.git
+[submodule "lib/JSON-js"]
+	path = lib/JSON-js
+	url = git://github.com/douglascrockford/JSON-js.git

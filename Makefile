@@ -9,6 +9,7 @@ COMPILER_BIN = ${COMPILER_DIR}/compiler.jar
 CLOSURE_SRC = http://closure-compiler.googlecode.com/files/compiler-latest.zip
 COMPILE = java -jar ${COMPILER_BIN} --js ${DIST_DIR}/twilio.js --js_output_file ${DIST_DIR}/twilio.min.js --warning_level QUIET
 
+JSON_LIB = ${LIB_DIR}/JSON-js/json2.js
 TWILIO_LIBS = ${SRC_DIR}/TwilioCapability.js
 
 all: clean core min
@@ -20,7 +21,7 @@ core:
 
 	@@echo "Building Twilio..."
 	@@mkdir -p ${DIST_DIR}
-	@@cat ${LIB_DIR}/jwt-js/${DIST_DIR}/jwt.js ${TWILIO_LIBS} > ${DIST_DIR}/twilio.js
+	@@cat ${JSON_LIB} ${LIB_DIR}/jwt-js/${DIST_DIR}/jwt.js ${TWILIO_LIBS} > ${DIST_DIR}/twilio.js
 
 min:
 	@@if test ! -z ${JAVA_BIN}; then \

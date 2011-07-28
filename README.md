@@ -26,7 +26,7 @@
 
 ## Known Issues
   
-  * Relies on native window.JSON implementation.
+  * _none_
 
 ## License 
 
